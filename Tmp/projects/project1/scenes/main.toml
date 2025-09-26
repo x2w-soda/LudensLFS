@@ -1,0 +1,35 @@
+[ludens_scene]
+version = 0 # schema version
+
+[[component]]
+script = 6
+cuid = 1
+name = "Backpack"
+type = "Mesh"
+transform = { position = [0.0, 0.0, 0.0], rotation = [0.0, 0.0, 0.0], scale = [0.01, 0.01, 0.01] }
+auid = 1
+
+[[component]]
+cuid = 2
+name = "Platform"
+type = "Mesh"
+transform = { position = [0.0, -6.0, 0.0], rotation = [0.0, 0.0, 0.0], scale = [1.0, 1.0, 1.0] }
+auid = 2
+
+[[component]]
+cuid = 3
+name = "Cerberus"
+type = "Mesh"
+transform = { position = [3.0, 0.0, 0.0], rotation = [0.0, 0.0, 0.0], scale = [0.02, 0.02, 0.02] }
+auid = 4
+
+[[component]]
+cuid = 4
+script = 6
+name = "DamagedHelmet"
+type = "Mesh"
+transform = { position = [-3.0, 0.0, 0.0], rotation = [0.0, 0.0, 0.0], scale = [1.0, 1.0, 1.0] }
+auid = 5
+
+[hierarchy]
+"2" = [1, 4]

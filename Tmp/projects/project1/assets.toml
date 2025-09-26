@@ -1,0 +1,22 @@
+[ludens_assets]
+version = 0
+
+[[Mesh]]
+uri = "../assets/gltf/backpack/backpack.ldb"
+auid = 1
+
+[[Mesh]]
+uri = "../assets/gltf/platform/platform00.ldb"
+auid = 2
+
+[[Mesh]]
+uri = "../assets/gltf/cerberus/cerberus.ldb"
+auid = 4
+
+[[Mesh]]
+uri = "../assets/gltf/DamagedHelmet/glTF/DamagedHelmet.ldb"
+auid = 5
+
+[[LuaScript]]
+uri = "../assets/lua/script.lua"
+auid = 6
