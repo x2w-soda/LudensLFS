@@ -1,0 +1,11 @@
+Model Information:
+* title:	Very Low Poly Cowboy Hat
+* source:	https://sketchfab.com/3d-models/very-low-poly-cowboy-hat-c048d51a2e9a4ee99262dc27058d8b9e
+* author:	sucholudek (https://sketchfab.com/sucholudek)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Very Low Poly Cowboy Hat" (https://sketchfab.com/3d-models/very-low-poly-cowboy-hat-c048d51a2e9a4ee99262dc27058d8b9e) by sucholudek (https://sketchfab.com/sucholudek) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

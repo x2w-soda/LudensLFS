@@ -1,5 +1,7 @@
 [ludens_scene]
-version = 0 # schema version
+version_major = 0
+version_minor = 0
+version_patch = 0
 
 [[component]]
 script = 6
@@ -28,8 +30,23 @@ cuid = 4
 script = 6
 name = "DamagedHelmet"
 type = "Mesh"
-transform = { position = [-3.0, 0.0, 0.0], rotation = [0.0, 0.0, 0.0], scale = [1.0, 1.0, 1.0] }
-auid = 5
+transform = { position = [-3.0, 0.0, 0.0], rotation = [0.0, 0.0, 0.0], scale = [5.0, 1.0, 5.0] }
+auid = 7 #5
+
+[[component]]
+cuid = 5
+name = "Cat"
+type = "Mesh"
+transform = { position = [-5.0, -3.0, -2.0], rotation = [0.0, 0.0, 0.0], scale = [5.0, 5.0, 5.0] }
+auid = 7
+
+[[component]]
+cuid = 6
+name = "Hat"
+type = "Mesh"
+transform = { position = [0.0, 0.329, 0.083], rotation = [0.0, 0.0, 0.0], scale = [0.01, 0.01, 0.01] }
+auid = 8
 
 [hierarchy]
 "2" = [1, 4]
+"5" = [6]

@@ -17,6 +17,14 @@ auid = 4
 uri = "../assets/gltf/DamagedHelmet/glTF/DamagedHelmet.ldb"
 auid = 5
 
+[[Mesh]]
+uri = "../assets/gltf/oiiaioooooiai_cat/cat.ldb"
+auid = 7
+
+[[Mesh]]
+uri = "../assets/gltf/very_low_poly_cowboy_hat/hat.ldb"
+auid = 8
+
 [[LuaScript]]
 uri = "../assets/lua/script.lua"
 auid = 6
