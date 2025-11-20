@@ -2,29 +2,37 @@
 version = 0
 
 [[Mesh]]
-uri = "../assets/gltf/backpack/backpack.ldb"
+uri = "../assets/gltf/backpack/backpack.lda"
 auid = 1
 
 [[Mesh]]
-uri = "../assets/gltf/platform/platform00.ldb"
+uri = "../assets/gltf/platform/platform00.lda"
 auid = 2
 
 [[Mesh]]
-uri = "../assets/gltf/cerberus/cerberus.ldb"
+uri = "../assets/gltf/cerberus/cerberus.lda"
 auid = 4
 
 [[Mesh]]
-uri = "../assets/gltf/DamagedHelmet/glTF/DamagedHelmet.ldb"
+uri = "../assets/gltf/DamagedHelmet/glTF/DamagedHelmet.lda"
 auid = 5
 
 [[Mesh]]
-uri = "../assets/gltf/oiiaioooooiai_cat/cat.ldb"
+uri = "../assets/gltf/oiiaioooooiai_cat/cat.lda"
 auid = 7
 
 [[Mesh]]
-uri = "../assets/gltf/very_low_poly_cowboy_hat/hat.ldb"
+uri = "../assets/gltf/very_low_poly_cowboy_hat/hat.lda"
 auid = 8
 
 [[LuaScript]]
 uri = "../assets/lua/script.lua"
 auid = 6
+
+[[LuaScript]]
+uri = "../assets/lua/audioPlayer.lua"
+auid = 9
+
+[[AudioClip]]
+uri = "../assets/audio/forest.lda"
+auid = 100
