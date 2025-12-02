@@ -1,38 +1,55 @@
 [ludens_assets]
-version = 0
+version_major = 0
+version_minor = 0
+version_patch = 0
+auid_counter = 101
+
+[[Font]]
+uri = "../assets/font/Inter_24pt-Regular.lda"
+auid = 3
+name = "default_font"
 
 [[Mesh]]
 uri = "../assets/gltf/backpack/backpack.lda"
 auid = 1
+name = "backpack"
 
 [[Mesh]]
 uri = "../assets/gltf/platform/platform00.lda"
 auid = 2
+name = "platform00"
 
 [[Mesh]]
 uri = "../assets/gltf/cerberus/cerberus.lda"
 auid = 4
+name = "cerberus"
 
 [[Mesh]]
 uri = "../assets/gltf/DamagedHelmet/glTF/DamagedHelmet.lda"
 auid = 5
+name = "DamagedHelmet"
 
 [[Mesh]]
 uri = "../assets/gltf/oiiaioooooiai_cat/cat.lda"
 auid = 7
+name = "cat"
 
 [[Mesh]]
 uri = "../assets/gltf/very_low_poly_cowboy_hat/hat.lda"
 auid = 8
+name = "hat"
 
 [[LuaScript]]
 uri = "../assets/lua/script.lua"
 auid = 6
+name = "script"
 
 [[LuaScript]]
 uri = "../assets/lua/audioPlayer.lua"
 auid = 9
+name = "audioPlayer"
 
 [[AudioClip]]
 uri = "../assets/audio/forest.lda"
 auid = 100
+name = "forest"

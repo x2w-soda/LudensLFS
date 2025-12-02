@@ -1,68 +1,67 @@
+[hierarchy]
+2 = [4, 1]
+5 = [6]
+
+[[component]]
+type = "Mesh"
+auid = 5
+name = "DamagedHelmet"
+cuid = 4
+transform = {position = [2.55821, 5.42545, 0.0], rotation = [0.0, 0.0, 0.0], scale = [1.74343, 1.0, 1.71553]}
+
+[[component]]
+type = "Mesh"
+auid = 1
+name = "Backpack"
+cuid = 1
+transform = {position = [13.4756, 0.0, -10.9651], rotation = [0.0, 0.0, 0.0], scale = [0.01, 0.01, 0.01]}
+
+[[component]]
+type = "Mesh"
+auid = 2
+name = "Platform"
+cuid = 2
+transform = {position = [-4.38353, -6.0, -6.03717], rotation = [0.0, 0.0, 0.0], scale = [1.0, 1.0, 1.0]}
+
+[[component]]
+type = "Mesh"
+auid = 4
+name = "Cerberus"
+cuid = 3
+transform = {position = [3.0, 0.0, 0.0], rotation = [0.0, 0.0, 0.0], scale = [0.02, 0.02, 0.02]}
+
+[[component]]
+type = "Mesh"
+auid = 8
+name = "Hat"
+cuid = 6
+transform = {position = [0.0, 0.329, 0.083], rotation = [0.0, 0.0, 0.0], scale = [0.01, 0.01, 0.01]}
+
+[[component]]
+type = "Mesh"
+auid = 7
+name = "Cat"
+cuid = 5
+transform = {position = [-7.81519, -3.75509, -2.0], rotation = [0.0, 0.0, 0.0], scale = [5.0, 5.0, 5.0]}
+script = 6
+
+[[component]]
+type = "AudioSource"
+auid = 100
+name = "Audio"
+cuid = 7
+
+[[component]]
+perspective = {fov = 45.0, nearClip = 0.1, farClip = 100.0}
+isPerspective = true
+type = "Camera"
+name = "MainCamera"
+cuid = 8
+transform = {position = [-3.61957, -1.20363, -18.0253], rotation = [0.0, 0.0, 0.0], scale = [1.0, 1.0, 1.0]}
+isMainCamera = true
+
 [ludens_scene]
 version_major = 0
 version_minor = 0
 version_patch = 0
 
-[[component]]
-script = 6
-cuid = 1
-name = "Backpack"
-type = "Mesh"
-transform = { position = [0.0, 0.0, 0.0], rotation = [0.0, 0.0, 0.0], scale = [0.01, 0.01, 0.01] }
-auid = 1
-
-[[component]]
-cuid = 2
-name = "Platform"
-type = "Mesh"
-transform = { position = [0.0, -6.0, 0.0], rotation = [0.0, 0.0, 0.0], scale = [1.0, 1.0, 1.0] }
-auid = 2
-
-[[component]]
-cuid = 3
-name = "Cerberus"
-type = "Mesh"
-transform = { position = [3.0, 0.0, 0.0], rotation = [0.0, 0.0, 0.0], scale = [0.02, 0.02, 0.02] }
-auid = 4
-
-[[component]]
-cuid = 4
-script = 6
-name = "DamagedHelmet"
-type = "Mesh"
-transform = { position = [-3.0, 0.0, 0.0], rotation = [0.0, 0.0, 0.0], scale = [5.0, 1.0, 5.0] }
-auid = 5
-
-[[component]]
-cuid = 5
-name = "Cat"
-type = "Mesh"
-transform = { position = [-5.0, -3.0, -2.0], rotation = [0.0, 0.0, 0.0], scale = [5.0, 5.0, 5.0] }
-auid = 7
-
-[[component]]
-cuid = 6
-name = "Hat"
-type = "Mesh"
-transform = { position = [0.0, 0.329, 0.083], rotation = [0.0, 0.0, 0.0], scale = [0.01, 0.01, 0.01] }
-auid = 8
-
-[[component]]
-cuid = 7
-script = 9
-name = "Audio"
-type = "AudioSource"
-auid = 100
-
-[[component]]
-cuid = 8
-name = "MainCamera"
-type = "Camera"
-transform = { position = [0.0, 3.0, -10.0], rotation = [0.0, 0.0, 0.0], scale = [1.0, 1.0, 1.0] }
-isPerspective = true
-isMainCamera = true
-perspective = { fov = 45.0, nearClip = 0.1, farClip = 100.0 }
-
-[hierarchy]
-"2" = [1, 4]
-"5" = [6]

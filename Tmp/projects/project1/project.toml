@@ -5,3 +5,9 @@ version_patch = 0
 name = "first game"
 assets = "./assets.toml"
 scenes = ["./scenes/main.toml", "./scenes/scene2.toml"]
+
+[settings.startup]
+window_width = 1080
+window_height = 540
+window_name = "foo"
+default_scene_path = "scenes/main.toml"
