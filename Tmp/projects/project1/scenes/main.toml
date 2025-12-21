@@ -63,24 +63,6 @@ cuid = 8
 transform = {position = [-3.61957, -1.20363, -18.0253], rotation = [0.0, 0.0, 0.0], scale = [1.0, 1.0, 1.0]}
 isMainCamera = true
 
-[[component]]
-type = "Sprite2D"
-auid = 200
-name = "Sprite1"
-local = {x = -50.0, h = 150.0, y = -75.0, w = 100.0}
-cuid = 9
-transform = {position = [10.0, 10.0], rotation = 45.0, scale = [1.0, 1.5]}
-script = 302
-
-[[component]]
-type = "Sprite2D"
-auid = 201
-name = "Sprite2"
-local = {x = -50.0, h = 100.0, y = -50.0, w = 100.0}
-cuid = 10
-transform = {position = [300.0, 10.0], rotation = 0.0, scale = [2.0, 1.0]}
-script = 302
-
 [ludens_scene]
 version_major = 0
 version_minor = 0
