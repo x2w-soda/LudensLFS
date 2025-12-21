@@ -4,6 +4,7 @@ local Script = {
 }
 
 function Script:attach(comp)
+	comp.pan = 1.0
 end
 
 function Script:detach()
