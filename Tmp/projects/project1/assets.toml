@@ -4,6 +4,11 @@ version_minor = 0
 version_patch = 0
 auid_counter = 101
 
+[[TextureCube]]
+uri = "../../skybox/blue_photo_studio/cubemap.lda"
+auid = 10
+name = "default_cubemap"
+
 [[Font]]
 uri = "../assets/font/Inter_24pt-Regular.lda"
 auid = 3
@@ -40,16 +45,31 @@ auid = 8
 name = "hat"
 
 [[LuaScript]]
-uri = "../assets/lua/script.lua"
-auid = 6
+uri = "../assets/lua/script.lda"
+auid = 300
 name = "script"
 
 [[LuaScript]]
-uri = "../assets/lua/audioPlayer.lua"
-auid = 9
+uri = "../assets/lua/audioPlayer.lda"
+auid = 301
 name = "audioPlayer"
+
+[[LuaScript]]
+uri = '../assets/lua/sprite.lda'
+auid = 302
+name = "sprite"
 
 [[AudioClip]]
 uri = "../assets/audio/forest.lda"
 auid = 100
 name = "forest"
+
+[[Texture2D]]
+uri = "../../../Texture/lobster.lda"
+auid = 200
+name = "lobster"
+
+[[Texture2D]]
+uri = "../../../Texture/duck.lda"
+auid = 201
+name = "duck"

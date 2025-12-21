@@ -13,26 +13,11 @@ isMainCamera = true
 perspective = { fov = 45.0, nearClip = 0.1, farClip = 100.0 }
 
 [[component]]
-script = 6
-cuid = 1
-name = "Backpack"
-type = "Mesh"
-transform = { position = [0.0, 0.0, 0.0], rotation = [0.0, 0.0, 0.0], scale = [0.01, 0.01, 0.01] }
-auid = 1
-
-[[component]]
 cuid = 2
 name = "Platform"
 type = "Mesh"
 transform = { position = [0.0, -6.0, 0.0], rotation = [0.0, 0.0, 0.0], scale = [1.0, 1.0, 1.0] }
 auid = 2
-
-[[component]]
-cuid = 3
-name = "Backpack2"
-type = "Mesh"
-transform = { position = [0.0, 5.0, 0.0], rotation = [0.0, 0.0, 0.0], scale = [0.01, 0.01, 0.01] }
-auid = 1
 
 [[component]]
 cuid = 5
@@ -43,11 +28,16 @@ auid = 7
 
 [[component]]
 cuid = 6
-name = "Hat"
-type = "Mesh"
-transform = { position = [0.0, 0.329, 0.083], rotation = [0.0, 0.0, 0.0], scale = [0.01, 0.01, 0.01] }
-auid = 8
+auid = 200
+name = "Sprite1"
+type = "Sprite2D"
+local = { x = 10, y = 10, w = 100, h = 100 }
+transform = { position = [10, 10], rotation = 30.0, scale = [1.0, 1.0]}
 
-[hierarchy]
-"2" = [1]
-"5" = [6]
+[[component]]
+cuid = 7
+auid = 201
+name = "Sprite2"
+type = "Sprite2D"
+local = { x = 0, y = 0, w = 100, h = 100 }
+transform = { position = [300, 10], rotation = 0.0, scale = [1.0, 1.0]}
