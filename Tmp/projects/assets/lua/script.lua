@@ -7,7 +7,7 @@ local Script = {
 }
 
 function Script:attach(comp)
-	--self.name = comp:get_name()
+	self.comp = comp
 	ld.debug.log('script attached')
 end
 
@@ -15,22 +15,34 @@ function Script:detach()
 	ld.debug.log('script detached')
 end
 
-function Script:update(comp, dt)
-	local rot = comp.transform.rotation
+function Script:update(dt)
+	local tr = self.comp.transform
+	local rot = tr.rotation
 	if ld.input.get_key('space') then
 		-- ld.debug.log('L key pressed')
 		rot.y = rot.y + self.rotSpeed * dt
-		comp.transform.rotation = rot
+		tr.rotation = rot
 	end
 
-	local pos = comp.transform.position
+	local pos = tr.position
 	if ld.input.get_key('h') then
 		pos.x = pos.x + self.moveSpeed * dt
-		comp.transform.position = pos
+		tr.position = pos
 	end
 	if ld.input.get_key('l') then
 		pos.x = pos.x - self.moveSpeed * dt
-		comp.transform.position = pos
+		tr.position = pos
+	end
+
+	if ld.input.get_key_down('x') then
+		local childC = self.comp:get_child('Audio')
+		if childC then
+			ld.debug.log('childC exists')
+			childC.volume = 1.0
+			childC:play()
+		else
+			ld.debug.log('childC not found')
+		end
 	end
 end
 

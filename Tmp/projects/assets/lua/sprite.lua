@@ -5,14 +5,16 @@ local Script = {
 }
 
 function Script:attach(comp)
+	self.comp = comp
 	ld.debug.log('sprite script attached')
 end
 
-function Script:detach(comp)
+function Script:detach()
 	ld.debug.log('sprite script detached')
 end
 
-function Script:update(comp, dt)
+function Script:update(dt)
+	local comp = self.comp
 	local rot = comp.transform.rotation
 	if ld.input.get_key('q') then
 		rot = rot + self.rotSpeed * dt
