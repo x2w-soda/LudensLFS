@@ -1,8 +1,8 @@
-[ludens_assets]
-version_major = 0
-version_minor = 0
-version_patch = 0
-auid_counter = 101
+[ludensAssets]
+versionMajor = 0
+versionMinor = 0
+versionPatch = 0
+auidCounter = 101
 
 [[TextureCube]]
 uri = "../../skybox/blue_photo_studio/cubemap.lda"

@@ -51,8 +51,7 @@ auid = 100
 name = "Audio"
 cuid = 7
 pan = 0.5
-volume_linear = 1.0
-script = 301
+volumeLinear = 1.0
 
 [[component]]
 perspective = {fov = 45.0, nearClip = 0.1, farClip = 100.0}
@@ -63,8 +62,8 @@ cuid = 8
 transform = {position = [-3.61957, -1.20363, -18.0253], rotation = [0.0, 0.0, 0.0], scale = [1.0, 1.0, 1.0]}
 isMainCamera = true
 
-[ludens_scene]
-version_major = 0
-version_minor = 0
-version_patch = 0
+[ludensScene]
+versionMajor = 0
+versionMinor = 0
+versionPatch = 0
 

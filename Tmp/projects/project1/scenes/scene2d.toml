@@ -1,0 +1,40 @@
+[ludensScene]
+versionMajor = 0
+versionMinor = 0
+versionPatch = 0
+
+[[component]]
+perspective = {fov = 45.0, nearClip = 0.1, farClip = 100.0}
+isPerspective = true
+type = "Camera"
+name = "MainCamera"
+cuid = 8
+transform = {position = [-3.61957, -1.20363, -18.0253], rotation = [0.0, 0.0, 0.0], scale = [1.0, 1.0, 1.0]}
+isMainCamera = true
+
+[[component]]
+cuid = 6
+auid = 200
+name = "Sprite1"
+type = "Sprite2D"
+local = { x = 0, y = 0, w = 100, h = 100 }
+transform = { position = [10, 10], rotation = 0.0, scale = [1.0, 1.0]}
+zDepth = 2
+
+[[component]]
+cuid = 7
+auid = 201
+name = "Sprite2"
+type = "Sprite2D"
+local = { x = 0, y = 0, w = 100, h = 100 }
+transform = { position = [60, 10], rotation = 0.0, scale = [1.0, 1.0]}
+zDepth = 1
+
+[[component]]
+cuid = 9
+auid = 201
+name = "Sprite3"
+type = "Sprite2D"
+local = { x = 0, y = 0, w = 100, h = 100 }
+transform = { position = [110, 10], rotation = 0.0, scale = [1.0, 1.0]}
+zDepth = 0
