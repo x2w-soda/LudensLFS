@@ -4,13 +4,13 @@ versionMinor = 0
 versionPatch = 0
 name = "first game"
 assets = "./assets.toml"
-scenes = ["./scenes/scene2d.toml", "./scenes/main.toml"]
+scenes = ["./scenes/main.toml", "./scenes/scene2d.toml"]
 
 [settings.startup]
 windowWidth = 1080
 windowHeight = 540
 windowName = "foo"
-defaultScenePath = "scenes/scene2d.toml"
+defaultScenePath = "scenes/main.toml"
 
 [settings.screenLayer]
 layers = [ {name='default', id=1}, {name='fg', id=2} ]
