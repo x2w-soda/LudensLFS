@@ -1,0 +1,69 @@
+[hierarchy]
+3 = [2, 1]
+7 = [6, 5]
+
+[[component]]
+mesh_id = 105
+transform = {scale = [1.74343, 1.0, 1.71553], rotation = [0.0, 0.0, 0.0], position = [2.55821, 5.42545, 0.0]}
+id = 1
+name = "DamagedHelmet"
+type = "Mesh"
+
+[[component]]
+mesh_id = 102
+transform = {scale = [0.01, 0.01, 0.01], rotation = [0.0, 0.0, 0.0], position = [13.4756, 0.0, -10.9651]}
+id = 2
+name = "Backpack"
+type = "Mesh"
+
+[[component]]
+mesh_id = 103
+transform = {scale = [1.0, 1.0, 1.0], rotation = [0.0, 0.0, 0.0], position = [-3.27101, -8.80283, -2.76204]}
+id = 3
+name = "Platform"
+type = "Mesh"
+
+[[component]]
+mesh_id = 104
+transform = {scale = [0.02, 0.02, 0.02], rotation = [0.0, 0.0, 0.0], position = [0.0580647, -2.14365, 0.0]}
+id = 4
+name = "Cerberus"
+type = "Mesh"
+
+[[component]]
+volume_linear = 1.0
+pan = 0.0
+clip_id = 112
+id = 5
+name = "Audio"
+type = "AudioSource"
+
+[[component]]
+mesh_id = 107
+transform = {scale = [0.01, 0.01, 0.01], rotation = [0.0, 0.0, 0.0], position = [0.0, 0.329, 0.083]}
+id = 6
+name = "Hat"
+type = "Mesh"
+
+[[component]]
+mesh_id = 106
+script_id = 108
+transform = {scale = [5.0, 5.0, 5.0], rotation = [0.0, 0.0, 0.0], position = [-7.9127, -5.04736, -2.0]}
+id = 7
+name = "Cat"
+type = "Mesh"
+
+[[component]]
+perspective = {far_clip = 100.0, near_clip = 0.1, fov = 45.0}
+is_main = true
+is_perspective = true
+transform = {scale = [1.0, 1.0, 1.0], rotation = [0.0, 0.0, 0.0], position = [-3.29786, -5.81815, -18.0253]}
+id = 8
+name = "MainCamera"
+type = "Camera"
+
+[ludens_scene]
+version_patch = 0
+version_minor = 0
+version_major = 0
+

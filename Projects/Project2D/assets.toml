@@ -1,0 +1,49 @@
+[ludens_assets]
+version_major = 0
+version_minor = 0
+version_patch = 0
+
+[[TextureCube]]
+uri = "../../Texture/Skybox/blue_photo_studio/cubemap.lda"
+id = 100
+name = "default_cubemap"
+
+[[Font]]
+uri = "../Assets/font/Inter_24pt-Regular.lda"
+id = 101
+name = "default_font"
+
+[[LuaScript]]
+uri = "../Assets/lua/script.lda"
+id = 108
+name = "script"
+
+[[LuaScript]]
+uri = "../Assets/lua/audioPlayer.lda"
+id = 109
+name = "audioPlayer"
+
+[[LuaScript]]
+uri = '../Assets/lua/sprite.lda'
+id = 110
+name = "sprite"
+
+[[AudioClip]]
+uri = "../Assets/audio/forest.lda"
+id = 111
+name = "forest"
+
+[[AudioClip]]
+uri = "../Assets/audio/oiiai.lda"
+id = 112
+name = "oiiai"
+
+[[Texture2D]]
+uri = "../../Texture/lobster.lda"
+id = 113
+name = "lobster"
+
+[[Texture2D]]
+uri = "../../Texture/duck.lda"
+id = 114
+name = "duck"
