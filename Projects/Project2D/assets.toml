@@ -3,10 +3,10 @@ version_major = 0
 version_minor = 0
 version_patch = 0
 
-[[TextureCube]]
-uri = "../../Texture/Skybox/blue_photo_studio/cubemap.lda"
-id = 100
-name = "default_cubemap"
+#[[TextureCube]]
+#uri = "../../Texture/Skybox/blue_photo_studio/cubemap.lda"
+#id = 100
+#name = "default_cubemap"
 
 [[Font]]
 uri = "../Assets/font/Inter_24pt-Regular.lda"
@@ -40,10 +40,20 @@ name = "oiiai"
 
 [[Texture2D]]
 uri = "../../Texture/lobster.lda"
-id = 113
+id = 200
 name = "lobster"
 
 [[Texture2D]]
 uri = "../../Texture/duck.lda"
-id = 114
+id = 201
 name = "duck"
+
+# [[Texture2D]]
+# uri = "../../Texture/Kenny/InputPrompts/KeyboardMouse/keyboard_mouse_sheet_default.lda"
+# id = 202
+# name = "KeyboardMouse"
+
+[[UITemplate]]
+uri = "../Assets/ui/hud.toml"
+id = 203
+name = "hud"

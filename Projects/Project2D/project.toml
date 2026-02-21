@@ -10,7 +10,7 @@ scenes = ["./scenes/scene2d.toml"]
 window_width = 1080
 window_height = 540
 window_name = "foo"
-default_scene_path = "scenes/main.toml"
+default_scene_path = "./scenes/scene2d.toml"
 
 [settings.screen_layer]
 layers = [ {name='default', id=1}, {name='fg', id=2} ]

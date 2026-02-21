@@ -3,38 +3,60 @@ version_major = 0
 version_minor = 0
 version_patch = 0
 
+# [hierarchy]
+# 9 = [10]
+
 [[component]]
-perspective = {fov = 45.0, nearClip = 0.1, farClip = 100.0}
-isPerspective = true
+perspective = {fov = 45.0, near_clip = 0.1, far_clip = 100.0}
+is_perspective = true
 type = "Camera"
 name = "MainCamera"
 id = 8
 transform = {position = [-3.61957, -1.20363, -18.0253], rotation = [0.0, 0.0, 0.0], scale = [1.0, 1.0, 1.0]}
-isMainCamera = true
+is_main = true
 
 [[component]]
 id = 6
 texture_2d_id = 200
-name = "Sprite1"
+name = "Lob"
 type = "Sprite2D"
-local = { x = 0, y = 0, w = 100, h = 100 }
-transform = { position = [10, 10], rotation = 0.0, scale = [1.0, 1.0]}
-z_depth = 2
+pivot = { x = 0, y = 0 }
+region = { x = 0, y = 0, w = 100, h = 100 }
+transform = { position = [10, 10], rotation = 45.0, scale = [1.0, 1.0]}
+z_depth = 0
 
 [[component]]
 id = 7
 texture_2d_id = 201
-name = "Sprite2"
+name = "Duck1"
 type = "Sprite2D"
-local = { x = 0, y = 0, w = 100, h = 100 }
-transform = { position = [60, 10], rotation = 0.0, scale = [1.0, 1.0]}
-z_depth = 1
+pivot = { x = 50, y = 50 }
+region = { x = 230, y = 0, w = 230, h = 230 }
+transform = { position = [100, 100], rotation = 0.0, scale = [1.0, 1.0]}
+z_depth = 3
 
 [[component]]
 id = 9
 texture_2d_id = 201
-name = "Sprite3"
+name = "Duck2"
 type = "Sprite2D"
-local = { x = 0, y = 0, w = 100, h = 100 }
+pivot = { x = 50, y = 50 }
+region = { x = 230, y = 0, w = 230, h = 230 }
 transform = { position = [110, 10], rotation = 0.0, scale = [1.0, 1.0]}
-z_depth = 0
+z_depth = 2
+
+# [[component]]
+# id = 10
+# texture_2d_id = 202
+# name = "Tab"
+# type = "Sprite2D"
+# pivot = { x = 32, y = 32 }
+# region = { x = 0, y = 128, w = 64, h = 64 }
+# transform = { position = [50, 50], rotation = 30.0, scale = [1.0, 1.0]}
+# z_depth = 1
+
+[[component]]
+id = 11
+ui_template_id = 203
+name = "HUD"
+type = "ScreenUI"

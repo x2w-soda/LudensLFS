@@ -1,0 +1,31 @@
+[ludens_ui_template]
+version_major = 0
+version_minor = 0
+version_patch = 0
+
+[hierarchy]
+'0' = [1]
+
+[[widget]]
+index = 0
+layout.size_x = 'fit'
+layout.size_y = 'fit'
+layout.child_align_x = 'begin'
+layout.child_align_y = 'begin'
+layout.child_padding = {left=2,right =2,top=2,bottom=2}
+layout.child_axis = 'x'
+name = 'root'
+type = 'UIPanel'
+color = 0xFF0000FF
+
+[[widget]]
+index = 1
+layout.size_x = 180
+layout.size_y = 40
+layout.child_align_x = 'begin'
+layout.child_align_y = 'begin'
+layout.child_padding = {left=2,right =2,top=2,bottom=2}
+layout.child_axis = 'x'
+name = 'btn'
+type = 'UIButton'
+text = 'click me'
