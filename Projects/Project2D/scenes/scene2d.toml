@@ -3,60 +3,62 @@ version_major = 0
 version_minor = 0
 version_patch = 0
 
-# [hierarchy]
-# 9 = [10]
+[hierarchy]
+0x02000006 = [0x0200000C]
 
 [[component]]
-perspective = {fov = 45.0, near_clip = 0.1, far_clip = 100.0}
-is_perspective = true
-type = "Camera"
-name = "MainCamera"
-id = 8
-transform = {position = [-3.61957, -1.20363, -18.0253], rotation = [0.0, 0.0, 0.0], scale = [1.0, 1.0, 1.0]}
-is_main = true
-
-[[component]]
-id = 6
-texture_2d_id = 200
+id = 0x02000006
+texture_2d_id = 0x01000007
 name = "Lob"
 type = "Sprite2D"
-pivot = { x = 0, y = 0 }
+pivot = { x = 50, y = 50 }
 region = { x = 0, y = 0, w = 100, h = 100 }
 transform = { position = [10, 10], rotation = 45.0, scale = [1.0, 1.0]}
-z_depth = 0
+z_depth = 7
+script_id = 0x01000003
 
 [[component]]
-id = 7
-texture_2d_id = 201
+id = 0x02000007
+texture_2d_id = 0x01000008
 name = "Duck1"
 type = "Sprite2D"
 pivot = { x = 50, y = 50 }
 region = { x = 230, y = 0, w = 230, h = 230 }
 transform = { position = [100, 100], rotation = 0.0, scale = [1.0, 1.0]}
-z_depth = 3
+z_depth = 10
 
 [[component]]
-id = 9
-texture_2d_id = 201
+id = 0x02000009
+texture_2d_id = 0x01000008
 name = "Duck2"
 type = "Sprite2D"
-pivot = { x = 50, y = 50 }
+pivot = { x = 0, y = 0 }
 region = { x = 230, y = 0, w = 230, h = 230 }
 transform = { position = [110, 10], rotation = 0.0, scale = [1.0, 1.0]}
-z_depth = 2
-
-# [[component]]
-# id = 10
-# texture_2d_id = 202
-# name = "Tab"
-# type = "Sprite2D"
-# pivot = { x = 32, y = 32 }
-# region = { x = 0, y = 128, w = 64, h = 64 }
-# transform = { position = [50, 50], rotation = 30.0, scale = [1.0, 1.0]}
-# z_depth = 1
+z_depth = 9
 
 [[component]]
-id = 11
-ui_template_id = 203
+id = 0x0200000B
+ui_template_id = 0x0100000A
 name = "HUD"
 type = "ScreenUI"
+
+[[component]]
+id = 0x0200000C
+script_id = 0x01000004
+name = "cameraL"
+type = "Camera2D"
+zoom = 1.0
+extent = { x = 240, y = 270 }
+viewport = { x = 0.0, y = 0.0, w = 1.0, h = 1.0 }
+transform = { position = [0, 0], rotation = 0.0, scale = [1.0, 1.0]}
+
+# [[component]]
+# id = 0x0200000D
+# name = "cameraR"
+# type = "Camera2D"
+# zoom = 1.0
+# extent = { x = 240, y = 270 }
+# viewport = { x = 0.5, y = 0.0, w = 0.5, h = 1.0 }
+# transform = { position = [0, 0], rotation = 0.0, scale = [1.0, 1.0]}
+

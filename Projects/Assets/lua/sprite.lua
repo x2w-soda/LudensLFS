@@ -2,6 +2,7 @@ local ld = require 'ludens'
 
 local Script = {
 	rotSpeed = 360.0,
+	counter = 0,
 }
 
 function Script:attach(comp)
@@ -22,6 +23,9 @@ function Script:update(dt)
 	elseif ld.input.get_key('e') then
 		rot = rot - self.rotSpeed * dt
 		comp.transform.rotation = rot
+	end
+	if ld.input.get_key_down('p') then
+		ld.scene.transition()
 	end
 end
 
