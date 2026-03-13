@@ -3,52 +3,66 @@ version_major = 0
 version_minor = 0
 version_patch = 0
 
-[[Font]]
+[[asset]]
 uri = "../Assets/font/Inter_24pt-Regular.lda"
 id = 0x01000000
 name = "default_font"
+type = "Font"
 
-[[LuaScript]]
+[[asset]]
 uri = "../Assets/lua/script.lda"
 id = 0x01000001
 name = "script"
+type = "LuaScript"
 
-[[LuaScript]]
+[[asset]]
 uri = "../Assets/lua/audioPlayer.lda"
 id = 0x01000002
 name = "audioPlayer"
+type = "LuaScript"
+extra_uri = {source = '../Assets/lua/audioPlayer.lua'}
 
-[[LuaScript]]
+[[asset]]
 uri = '../Assets/lua/sprite.lda'
 id = 0x01000003
 name = "sprite"
+type = "LuaScript"
+extra_uri = {source = '../Assets/lua/sprite.lua'}
 
-[[LuaScript]]
+[[asset]]
 uri = '../Assets/lua/camera2D.lda'
 id = 0x01000004
 name = "camera2D"
+type = "LuaScript"
+extra_uri = { source = '../Assets/lua/camera2D.lua'}
 
-[[AudioClip]]
+[[asset]]
 uri = "../Assets/audio/forest.lda"
 id = 0x01000005
 name = "forest"
+type = "AudioClip"
 
-[[AudioClip]]
+[[asset]]
 uri = "../Assets/audio/oiiai.lda"
 id = 0x01000006
 name = "oiiai"
+type = "AudioClip"
 
-[[Texture2D]]
+[[asset]]
 uri = "../../Texture/lobster.lda"
 id = 0x01000007
 name = "lobster"
+type = "Texture2D"
 
-[[Texture2D]]
+[[asset]]
 uri = "../../Texture/duck.lda"
 id = 0x01000008
 name = "duck"
+type = "Texture2D"
 
-[[UITemplate]]
+[[asset]]
 uri = "../Assets/ui/hud.toml"
 id = 0x0100000A
 name = "hud"
+type = "UITemplate"
+extra_uri = { source = '../Assets/ui/hud.lua'}

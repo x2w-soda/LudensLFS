@@ -4,13 +4,22 @@ version_minor = 0
 version_patch = 0
 name = "2D sandbox"
 assets = "./assets.toml"
-scenes = ["./scenes/scene2d.toml"]
+
+[[scene]]
+id = 0x03000000
+name = "Scene0"
+path = "scenes/scene2d.toml"
+
+[[scene]]
+id = 0x03000001
+name = "Scene1"
+path = "scenes/main.toml"
 
 [settings.startup]
 window_width = 1080
 window_height = 540
 window_name = "foo"
-default_scene_path = "./scenes/scene2d.toml"
+default_scene_id = 0x03000000
 
 [settings.screen_layer]
 layers = [ {name='default', id=1}, {name='fg', id=2} ]
