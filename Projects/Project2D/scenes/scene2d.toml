@@ -4,61 +4,84 @@ version_minor = 0
 version_patch = 0
 
 [hierarchy]
-0x02000006 = [0x0200000C]
+33554438 = [33554444]
+33554440 = [33554445]
+33554439 = [33554440]
 
 [[component]]
-id = 0x02000006
-texture_2d_id = 0x01000007
+id = 33554438
+screen_layer_id = 67108865
+region = {x = 50.0, h = 100.0, y = 0.0, w = 100.0}
+type = "Sprite2D"
 name = "Lob"
-type = "Sprite2D"
-pivot = { x = 50, y = 50 }
-region = { x = 0, y = 0, w = 100, h = 100 }
-transform = { position = [10, 10], rotation = 45.0, scale = [1.0, 1.0]}
+script_id = 16777219
+pivot = {x = 50.0, y = 50.0}
+transform = {position = {x = -61.6725, y = 234.139}, scale = {x = 1.0, y = 1.0}, rotation = 0.0}
+texture_2d_id = 16777223
 z_depth = 7
-script_id = 0x01000003
 
 [[component]]
-id = 0x02000007
-texture_2d_id = 0x01000008
-name = "Duck1"
+id = 33554444
+type = "Camera2D"
+name = "cameraL"
+zoom = 1.0
+script_id = 16777220
+viewport = {h = 1.0, x = 0.0, y = 0.0, w = 1.0}
+transform = {position = {x = 0.0, y = 0.0}, scale = {x = 1.0, y = 1.0}, rotation = 0.0}
+extent = {x = 1117.0, y = 565.6}
+
+[[component]]
+id = 33554439
+screen_layer_id = 67108865
+region = {x = 50.0, h = 230.0, y = 50.0, w = 250.0}
 type = "Sprite2D"
-pivot = { x = 50, y = 50 }
-region = { x = 230, y = 0, w = 230, h = 230 }
-transform = { position = [100, 100], rotation = 0.0, scale = [1.0, 1.0]}
+name = "Duck1"
+script_id = 0
+pivot = {x = 0.0, y = 0.0}
+transform = {position = {x = -67.687, y = 48.8661}, scale = {x = 1.07244, y = 1.07244}, rotation = 0.0}
+texture_2d_id = 16777224
 z_depth = 10
 
 [[component]]
-id = 0x02000009
-texture_2d_id = 0x01000008
-name = "Duck2"
+id = 33554440
+screen_layer_id = 67108865
+region = {h = 100.0, x = 0.0, y = 0.0, w = 100.0}
 type = "Sprite2D"
-pivot = { x = 0, y = 0 }
-region = { x = 230, y = 0, w = 230, h = 230 }
-transform = { position = [110, 10], rotation = 0.0, scale = [1.0, 1.0]}
+name = "Lob2"
+script_id = 0
+pivot = {x = 50.0, y = 50.0}
+transform = {position = {x = 304.12, y = 194.232}, scale = {x = 1.0, y = 1.0}, rotation = 0.0}
+texture_2d_id = 16777223
+z_depth = 7
+
+[[component]]
+id = 33554445
+screen_layer_id = 67108865
+region = {x = 0.0, h = 100.0, y = 0.0, w = 100.0}
+type = "Sprite2D"
+name = "Lob3"
+script_id = 0
+pivot = {x = 50.0, y = 50.0}
+transform = {position = {x = -33.5187, y = -48.3437}, scale = {x = 1.0, y = 1.0}, rotation = 0.0}
+texture_2d_id = 16777223
+z_depth = 5
+
+[[component]]
+id = 33554441
+screen_layer_id = 67108865
+region = {x = 230.0, h = 230.0, y = 0.0, w = 230.0}
+type = "Sprite2D"
+name = "Duck2"
+script_id = 0
+pivot = {x = 0.0, y = 0.0}
+transform = {position = {x = -681.849, y = 2.64955}, scale = {x = 1.0, y = 1.0}, rotation = 0.0}
+texture_2d_id = 16777224
 z_depth = 9
 
 [[component]]
-id = 0x0200000B
-ui_template_id = 0x0100000A
-name = "HUD"
+id = 33554443
 type = "ScreenUI"
-
-[[component]]
-id = 0x0200000C
-script_id = 0x01000004
-name = "cameraL"
-type = "Camera2D"
-zoom = 1.0
-extent = { x = 240, y = 270 }
-viewport = { x = 0.0, y = 0.0, w = 1.0, h = 1.0 }
-transform = { position = [0, 0], rotation = 0.0, scale = [1.0, 1.0]}
-
-# [[component]]
-# id = 0x0200000D
-# name = "cameraR"
-# type = "Camera2D"
-# zoom = 1.0
-# extent = { x = 240, y = 270 }
-# viewport = { x = 0.5, y = 0.0, w = 0.5, h = 1.0 }
-# transform = { position = [0, 0], rotation = 0.0, scale = [1.0, 1.0]}
+ui_template_id = 16777226
+name = "HUD"
+script_id = 0
 

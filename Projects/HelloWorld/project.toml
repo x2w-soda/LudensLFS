@@ -1,0 +1,20 @@
+[settings]
+[settings.startup]
+window_width = 1600
+window_name = "HelloWorld"
+window_height = 900
+default_scene_id = 50331648
+
+[settings.screen_layer]
+[ludens_project]
+version_major = 0
+version_minor = 0
+name = "HelloWorld"
+version_patch = 0
+assets = "assets.toml"
+
+[[scene]]
+id = 50331648
+path = "main.toml"
+name = "main"
+

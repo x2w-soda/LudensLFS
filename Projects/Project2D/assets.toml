@@ -4,65 +4,87 @@ version_minor = 0
 version_patch = 0
 
 [[asset]]
-uri = "../Assets/font/Inter_24pt-Regular.lda"
-id = 0x01000000
-name = "default_font"
+id = 16777216
 type = "Font"
+uri = "ld://asset/font/default_font"
+
+[asset.path]
+main = "../../Assets/font/Inter_24pt-Regular.lda"
 
 [[asset]]
-uri = "../Assets/lua/script.lda"
-id = 0x01000001
-name = "script"
+id = 16777217
+uri = "ld://asset/script/script"
 type = "LuaScript"
 
-[[asset]]
-uri = "../Assets/lua/audioPlayer.lda"
-id = 0x01000002
-name = "audioPlayer"
-type = "LuaScript"
-extra_uri = {source = '../Assets/lua/audioPlayer.lua'}
+[asset.path]
+main = "../../Assets/lua/script.lda"
+source = "../../Assets/lua/script.lua"
 
 [[asset]]
-uri = '../Assets/lua/sprite.lda'
-id = 0x01000003
-name = "sprite"
+id = 16777218
 type = "LuaScript"
-extra_uri = {source = '../Assets/lua/sprite.lua'}
+uri = "ld://asset/script/audioPlayer"
+
+[asset.path]
+main = "../../Assets/lua/audioPlayer.lda"
+source = "../../Assets/lua/audioPlayer.lua"
 
 [[asset]]
-uri = '../Assets/lua/camera2D.lda'
-id = 0x01000004
-name = "camera2D"
+id = 16777219
+uri = "ld://asset/script/sprite.lda"
 type = "LuaScript"
-extra_uri = { source = '../Assets/lua/camera2D.lua'}
+
+[asset.path]
+main = "../../Assets/lua/sprite.lda"
+source = "../../Assets/lua/sprite.lua"
 
 [[asset]]
-uri = "../Assets/audio/forest.lda"
-id = 0x01000005
-name = "forest"
+id = 16777220
+type = "LuaScript"
+uri = "ld://asset/script/camera2D"
+
+[asset.path]
+main = "../../Assets/lua/camera2D.lda"
+source = "../../Assets/lua/camera2D.lua"
+
+[[asset]]
+id = 16777221
+type = "AudioClip"
+uri = "ld://asset/audio/forest"
+
+[asset.path]
+main = "../../Assets/audio/forest.lda"
+
+[[asset]]
+id = 16777222
+uri = "ld://asset/audio/oiiai"
 type = "AudioClip"
 
-[[asset]]
-uri = "../Assets/audio/oiiai.lda"
-id = 0x01000006
-name = "oiiai"
-type = "AudioClip"
+[asset.path]
+main = "../../Assets/audio/oiiai.lda"
 
 [[asset]]
-uri = "../../Texture/lobster.lda"
-id = 0x01000007
-name = "lobster"
+id = 16777223
+uri = "ld://asset/texture/lobster"
 type = "Texture2D"
 
-[[asset]]
-uri = "../../Texture/duck.lda"
-id = 0x01000008
-name = "duck"
-type = "Texture2D"
+[asset.path]
+main = "../../Texture/lobster.lda"
 
 [[asset]]
-uri = "../Assets/ui/hud.toml"
-id = 0x0100000A
-name = "hud"
+id = 16777224
+uri = "ld://asset/texture/duck"
+type = "Texture2D"
+
+[asset.path]
+main = "../../Texture/duck.lda"
+
+[[asset]]
+id = 16777226
 type = "UITemplate"
-extra_uri = { source = '../Assets/ui/hud.lua'}
+uri = "ld://asset/ui/hud"
+
+[asset.path]
+main = "../../Assets/ui/hud.toml"
+source = "../../Assets/ui/hud.lua"
+
