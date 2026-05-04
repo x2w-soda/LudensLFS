@@ -1,0 +1,61 @@
+[ludens_scene]
+version_major = 0
+version_minor = 0
+version_patch = 0
+
+[hierarchy]
+[[component]]
+id = 33554438
+screen_layer_id = 67108865
+region = {h = 130.0, x = 0.0, y = 0.0, w = 680.0}
+type = "Sprite2D"
+name = "Lobster"
+script_id = 16777219
+pivot = {x = 340.0, y = 50.0}
+transform = {position = {x = -33.0537, y = 198.414}, scale = {x = 1.0, y = 1.0}, rotation = 0.0}
+texture_2d_id = 16777224
+z_depth = 11
+
+[[component]]
+id = 33554444
+type = "Camera2D"
+name = "Camera"
+script_id = 16777220
+zoom = 1.0
+transform = {position = {x = 0.0, y = 0.0}, scale = {x = 1.0, y = 1.0}, rotation = 0.0}
+viewport = {x = 0.0, h = 1.0, y = 0.0, w = 1.0}
+extent = {x = 1194.0, y = 644.0}
+
+[[component]]
+id = 33554432
+type = "AudioSource"
+name = "AudioPlayer"
+script_id = 16777218
+volume_linear = 0.607903
+clip_id = 0
+pan = 0.75076
+
+[[component]]
+id = 33554439
+screen_layer_id = 67108865
+region = {x = 50.0, h = 230.0, y = 50.0, w = 250.0}
+type = "Sprite2D"
+name = "Duck1"
+script_id = 16777225
+pivot = {x = 0.0, y = 0.0}
+transform = {position = {x = 66.3733, y = -132.785}, scale = {x = 1.07244, y = 1.07244}, rotation = 0.0}
+texture_2d_id = 16777224
+z_depth = 10
+
+[[component]]
+id = 33554441
+screen_layer_id = 67108865
+region = {h = 230.0, x = 230.0, y = 0.0, w = 230.0}
+type = "Sprite2D"
+name = "Duck2"
+script_id = 0
+pivot = {x = 0.0, y = 0.0}
+transform = {position = {x = -509.414, y = -120.939}, scale = {x = 1.0, y = 1.0}, rotation = 0.0}
+texture_2d_id = 16777224
+z_depth = 9
+

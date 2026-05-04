@@ -1,90 +1,90 @@
-[ludens_assets]
-version_major = 0
-version_minor = 0
-version_patch = 0
-
 [[asset]]
-id = 16777216
 type = "Font"
-uri = "ld://asset/font/default_font"
+path = "default_font"
+id = 16777216
 
-[asset.path]
-main = "../../Assets/font/Inter_24pt-Regular.lda"
+[asset.file_paths]
+ttf = "Inter_24pt-Regular.ttf"
 
 [[asset]]
+type = "LuaScript"
+path = "script/path/to/script"
 id = 16777217
-uri = "ld://asset/script/script"
-type = "LuaScript"
 
-[asset.path]
-main = "../../Assets/lua/script.lda"
-source = "../../Assets/lua/script.lua"
+[asset.file_paths]
+source = "script.lua"
 
 [[asset]]
+type = "LuaScript"
+path = "script/audio_player"
 id = 16777218
-type = "LuaScript"
-uri = "ld://asset/script/audioPlayer"
 
-[asset.path]
-main = "../../Assets/lua/audioPlayer.lda"
-source = "../../Assets/lua/audioPlayer.lua"
+[asset.file_paths]
+source = "audioPlayer.lua"
 
 [[asset]]
+type = "LuaScript"
+path = "script/spin"
 id = 16777219
-uri = "ld://asset/script/sprite.lda"
-type = "LuaScript"
 
-[asset.path]
-main = "../../Assets/lua/sprite.lda"
-source = "../../Assets/lua/sprite.lua"
+[asset.file_paths]
+source = "sprite.lua"
 
 [[asset]]
+type = "LuaScript"
+path = "script/camera2D"
 id = 16777220
-type = "LuaScript"
-uri = "ld://asset/script/camera2D"
 
-[asset.path]
-main = "../../Assets/lua/camera2D.lda"
-source = "../../Assets/lua/camera2D.lua"
+[asset.file_paths]
+source = "camera2D.lua"
 
 [[asset]]
+type = "AudioClip"
+path = "forest"
 id = 16777221
-type = "AudioClip"
-uri = "ld://asset/audio/forest"
-
-[asset.path]
-main = "../../Assets/audio/forest.lda"
 
 [[asset]]
+type = "AudioClip"
+path = "oiiai"
 id = 16777222
-uri = "ld://asset/audio/oiiai"
-type = "AudioClip"
-
-[asset.path]
-main = "../../Assets/audio/oiiai.lda"
 
 [[asset]]
+type = "Texture2D"
+path = "texture/lobster"
 id = 16777223
-uri = "ld://asset/texture/lobster"
-type = "Texture2D"
-
-[asset.path]
-main = "../../Texture/lobster.lda"
 
 [[asset]]
+type = "Texture2D"
+path = "texture/duck"
 id = 16777224
-uri = "ld://asset/texture/duck"
-type = "Texture2D"
-
-[asset.path]
-main = "../../Texture/duck.lda"
 
 [[asset]]
-id = 16777226
-type = "UITemplate"
-uri = "ld://asset/ui/hud"
+type = "LuaScript"
+path = "script/timer"
+id = 16777225
 
-[asset.path]
-main = "../../Assets/ui/hud.toml"
-source = "../../Assets/ui/hud.lua"
+[asset.file_paths]
+source = "haha.lua"
+binary = "asset.lda"
+
+[[asset]]
+type = "AudioClip"
+path = "pop"
+id = 16777226
+
+[asset.file_paths]
+binary = "asset.lda"
+
+[[asset]]
+type = "Texture2D"
+path = "texture/what"
+id = 16777227
+
+[asset.file_paths]
+binary = "asset.lda"
+
+[ludens_assets]
+version_patch = 0
+version_minor = 0
+version_major = 0
 

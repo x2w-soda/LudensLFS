@@ -1,0 +1,90 @@
+[ludens_assets]
+version_major = 0
+version_minor = 0
+version_patch = 0
+
+[[asset]]
+id = 16777227
+path = "texture/what"
+type = "Texture2D"
+
+[asset.file_paths]
+binary = "asset.lda"
+
+[[asset]]
+id = 16777226
+path = "pop"
+type = "AudioClip"
+
+[asset.file_paths]
+binary = "asset.lda"
+
+[[asset]]
+id = 16777225
+path = "script/timer"
+type = "LuaScript"
+
+[asset.file_paths]
+binary = "asset.lda"
+source = "haha.lua"
+
+[[asset]]
+id = 16777224
+path = "texture/duck"
+type = "Texture2D"
+
+[[asset]]
+id = 16777223
+path = "texture/lobster"
+type = "Texture2D"
+
+[[asset]]
+id = 16777222
+path = "oiiai"
+type = "AudioClip"
+
+[[asset]]
+id = 16777221
+path = "forest"
+type = "AudioClip"
+
+[[asset]]
+id = 16777220
+path = "script/camera2D"
+type = "LuaScript"
+
+[asset.file_paths]
+source = "camera2D.lua"
+
+[[asset]]
+id = 16777219
+path = "script/spin"
+type = "LuaScript"
+
+[asset.file_paths]
+source = "sprite.lua"
+
+[[asset]]
+id = 16777218
+path = "script/audio_player"
+type = "LuaScript"
+
+[asset.file_paths]
+source = "audioPlayer.lua"
+
+[[asset]]
+id = 16777217
+path = "script/path/to/script"
+type = "LuaScript"
+
+[asset.file_paths]
+source = "script.lua"
+
+[[asset]]
+id = 16777216
+path = "default_font"
+type = "Font"
+
+[asset.file_paths]
+ttf = "Inter_24pt-Regular.ttf"
+

@@ -1,7 +1,7 @@
 local ld = require 'ludens'
 
 local Script = {
-	rotSpeed = 360.0,
+	rotSpeed = 540.0,
 	counter = 0,
 }
 

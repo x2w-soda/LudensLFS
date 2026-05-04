@@ -1,20 +1,24 @@
 [settings]
 [settings.startup]
-window_width = 1600
-window_name = "HelloWorld"
+window_width = 1280
+window_name = "Hi"
 window_height = 900
 default_scene_id = 50331648
 
 [settings.screen_layer]
+[[settings.screen_layer.layers]]
+id = 67108865
+name = "default"
+
 [ludens_project]
 version_major = 0
 version_minor = 0
-name = "HelloWorld"
+name = "Hello World"
 version_patch = 0
 assets = "assets.toml"
 
 [[scene]]
 id = 50331648
-path = "main.toml"
-name = "main"
+path = "Scene/Main"
+
 

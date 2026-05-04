@@ -1,37 +1,47 @@
 [settings]
-[settings.startup]
-window_width = 900
-window_name = "window"
-window_height = 900
-default_scene_id = 50331648
-
 [settings.screen_layer]
 [[settings.screen_layer.layers]]
-id = 67108865
 name = "default"
+id = 67108865
 
 [[settings.screen_layer.layers]]
-id = 67108866
 name = "fg"
+id = 67108866
 
 [[settings.screen_layer.layers]]
-id = 67108864
 name = "bg"
+id = 67108864
+
+[settings.startup]
+default_scene_id = 50331648
+window_name = "Window"
+window_height = 900
+window_width = 1280
+
+[[scene]]
+path = "Scene/Main"
+id = 50331648
+
+[[scene]]
+path = "Scene/Second"
+id = 50331649
+
+[[scene]]
+path = "Scene/Test"
+id = 50331650
+
+[[scene]]
+path = "Scene/Menu"
+id = 50331651
+
+[[scene]]
+path = "Scene/AnotherScene"
+id = 50331652
 
 [ludens_project]
-version_major = 0
-version_minor = 0
 name = "2D sandbox"
-version_patch = 0
 assets = "assets.toml"
-
-[[scene]]
-id = 50331648
-name = "Scene0"
-path = "scenes/scene2d.toml"
-
-[[scene]]
-id = 50331649
-path = "scenes/main.toml"
-name = "Scene1"
+version_patch = 0
+version_minor = 0
+version_major = 0
 

@@ -1,0 +1,96 @@
+[hierarchy]
+33554439 = [33554435]
+33554441 = [33554433]
+33554433 = [33554434]
+
+[[component]]
+screen_layer_id = 67108865
+pivot = {y = 50.0, x = 340.0}
+region = {h = 130.0, w = 680.0, y = 0.0, x = 0.0}
+script_id = 16777219
+z_depth = 11
+name = "Lobster"
+type = "Sprite2D"
+texture_2d_id = 16777224
+transform = {scale = {y = 1.0, x = 1.0}, rotation = 0.0, position = {y = 140.304, x = 45.1216}}
+id = 33554438
+
+[[component]]
+zoom = 1.0
+viewport = {h = 1.0, w = 1.0, y = 0.0, x = 0.0}
+extent = {y = 565.6, x = 1117.0}
+script_id = 16777220
+name = "Camera"
+type = "Camera2D"
+transform = {scale = {y = 1.0, x = 1.0}, rotation = 0.0, position = {y = 0.0, x = 0.0}}
+id = 33554444
+
+[[component]]
+pan = 1.0
+clip_id = 16777222
+script_id = 16777218
+name = "AudioPlayer"
+type = "AudioSource"
+volume_linear = 1.0
+id = 33554432
+
+[[component]]
+screen_layer_id = 67108865
+pivot = {y = 0.0, x = 0.0}
+region = {h = 230.0, w = 250.0, y = 50.0, x = 50.0}
+script_id = 16777225
+z_depth = 10
+name = "Duck1"
+type = "Sprite2D"
+texture_2d_id = 16777224
+transform = {scale = {y = 1.07244, x = 1.07244}, rotation = 0.0, position = {y = -285.128, x = 131.441}}
+id = 33554439
+
+[[component]]
+screen_layer_id = 67108865
+pivot = {y = 50.0, x = 50.0}
+region = {h = 100.0, w = 100.0, y = 0.0, x = 0.0}
+script_id = 16777219
+z_depth = 0
+name = "sprite"
+type = "Sprite2D"
+texture_2d_id = 16777223
+transform = {scale = {y = 1.0, x = 1.0}, rotation = 0.0, position = {y = 165.238, x = 168.685}}
+id = 33554435
+
+[[component]]
+screen_layer_id = 67108865
+pivot = {y = 0.0, x = 0.0}
+region = {h = 230.0, w = 230.0, y = 0.0, x = 230.0}
+script_id = 0
+z_depth = 9
+name = "Duck2"
+type = "Sprite2D"
+texture_2d_id = 16777224
+transform = {scale = {y = 1.0, x = 1.0}, rotation = 0.0, position = {y = -213.195, x = -362.051}}
+id = 33554441
+
+[[component]]
+script_id = 0
+name = "offset"
+type = "Transform2D"
+transform = {scale = {y = 1.0, x = 1.0}, rotation = 0.0, position = {y = 50.0, x = 50.0}}
+id = 33554433
+
+[[component]]
+screen_layer_id = 67108865
+pivot = {y = 50.0, x = 50.0}
+region = {h = 100.0, w = 100.0, y = 0.0, x = 50.0}
+script_id = 16777219
+z_depth = 0
+name = "sprite"
+type = "Sprite2D"
+texture_2d_id = 16777223
+transform = {scale = {y = 1.0, x = 1.0}, rotation = 0.0, position = {y = 100.304, x = 130.028}}
+id = 33554434
+
+[ludens_scene]
+version_patch = 0
+version_minor = 0
+version_major = 0
+
