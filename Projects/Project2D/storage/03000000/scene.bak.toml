@@ -5,20 +5,21 @@ version_patch = 0
 
 [hierarchy]
 33554439 = [33554435]
+33554435 = [33554432]
 33554433 = [33554434]
 33554441 = [33554433]
 
 [[component]]
 id = 33554438
-screen_layer_id = 67108865
-region = {x = 0.0, h = 130.0, y = 0.0, w = 680.0}
 type = "Sprite2D"
 name = "Lobster"
 script_id = 16777219
+transform = {position = {x = -39.0104, y = 106.293}, scale = {x = 1.0, y = 1.0}, rotation = 0.0}
+texture = 16777224
 pivot = {x = 340.0, y = 50.0}
-transform = {position = {x = -9.67188, y = 116.933}, scale = {x = 1.0, y = 1.0}, rotation = 0.0}
-texture_2d_id = 16777224
 z_depth = 11
+region = {x = 0.0, h = 130.0, y = 0.0, w = 680.0}
+layer = 67108866
 
 [[component]]
 id = 33554444
@@ -29,51 +30,52 @@ script_id = 16777220
 viewport = {h = 1.0, x = 0.0, y = 0.0, w = 1.0}
 transform = {position = {x = 0.0, y = 0.0}, scale = {x = 1.0, y = 1.0}, rotation = 0.0}
 extent = {x = 1117.0, y = 565.6}
+constraint = false
+
+[[component]]
+id = 33554439
+type = "Sprite2D"
+name = "Duck1"
+script_id = 16777225
+transform = {position = {x = 15.0826, y = -223.624}, scale = {x = 1.07244, y = 1.07244}, rotation = 0.0}
+texture = 16777224
+pivot = {x = 0.0, y = 0.0}
+z_depth = 10
+region = {x = 50.0, h = 230.0, y = 50.0, w = 250.0}
+layer = 67108866
+
+[[component]]
+id = 33554435
+type = "Sprite2D"
+name = "sprite"
+script_id = 16777228
+transform = {position = {x = 168.685, y = 165.238}, scale = {x = 1.0, y = 1.0}, rotation = 0.0}
+texture = 16777223
+pivot = {x = 50.0, y = 50.0}
+z_depth = 0
+region = {h = 100.0, x = 0.0, y = 0.0, w = 100.0}
+layer = 67108866
 
 [[component]]
 id = 33554432
 type = "AudioSource"
-name = "AudioPlayer"
+name = "AudioSourceComponent"
 script_id = 16777218
-clip_id = 16777222
-volume_linear = 1.0
+clip = 16777222
 pan = 1.0
-
-[[component]]
-id = 33554439
-screen_layer_id = 67108865
-region = {h = 230.0, x = 50.0, y = 50.0, w = 250.0}
-type = "Sprite2D"
-name = "Duck1"
-script_id = 16777225
-pivot = {x = 0.0, y = 0.0}
-transform = {position = {x = 83.7624, y = -220.058}, scale = {x = 1.07244, y = 1.07244}, rotation = 0.0}
-texture_2d_id = 16777224
-z_depth = 10
-
-[[component]]
-id = 33554435
-screen_layer_id = 67108865
-region = {x = 0.0, h = 100.0, y = 0.0, w = 100.0}
-type = "Sprite2D"
-name = "sprite"
-script_id = 16777219
-pivot = {x = 50.0, y = 50.0}
-transform = {position = {x = 168.685, y = 165.238}, scale = {x = 1.0, y = 1.0}, rotation = 0.0}
-texture_2d_id = 16777223
-z_depth = 0
+volume_linear = 1.0
 
 [[component]]
 id = 33554441
-screen_layer_id = 67108865
-region = {x = 230.0, h = 230.0, y = 0.0, w = 230.0}
 type = "Sprite2D"
 name = "Duck2"
 script_id = 0
-pivot = {x = 0.0, y = 0.0}
 transform = {position = {x = -362.051, y = -213.195}, scale = {x = 1.0, y = 1.0}, rotation = 0.0}
-texture_2d_id = 16777224
+texture = 16777224
+pivot = {x = 0.0, y = 0.0}
 z_depth = 9
+region = {x = 230.0, h = 230.0, y = 0.0, w = 230.0}
+layer = 67108866
 
 [[component]]
 id = 33554433
@@ -84,13 +86,13 @@ transform = {position = {x = 50.0, y = 50.0}, scale = {x = 1.0, y = 1.0}, rotati
 
 [[component]]
 id = 33554434
-screen_layer_id = 67108865
-region = {h = 100.0, x = 50.0, y = 0.0, w = 100.0}
 type = "Sprite2D"
 name = "sprite"
 script_id = 16777219
-pivot = {x = 50.0, y = 50.0}
 transform = {position = {x = 130.028, y = 100.304}, scale = {x = 1.0, y = 1.0}, rotation = 0.0}
-texture_2d_id = 16777223
+texture = 16777223
+pivot = {x = 50.0, y = 50.0}
 z_depth = 0
+region = {h = 100.0, x = 50.0, y = 0.0, w = 100.0}
+layer = 67108866
 

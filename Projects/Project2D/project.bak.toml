@@ -7,10 +7,6 @@ default_scene_id = 50331648
 
 [settings.screen_layer]
 [[settings.screen_layer.layers]]
-id = 67108865
-name = "default"
-
-[[settings.screen_layer.layers]]
 id = 67108866
 name = "fg"
 
@@ -24,22 +20,6 @@ version_minor = 0
 name = "2D sandbox"
 version_patch = 0
 assets = "assets.toml"
-
-[[scene]]
-id = 50331652
-path = "Scene/AnotherScene"
-
-[[scene]]
-id = 50331651
-path = "Scene/Menu"
-
-[[scene]]
-id = 50331650
-path = "Scene/Test"
-
-[[scene]]
-id = 50331649
-path = "Scene/Second"
 
 [[scene]]
 id = 50331648
